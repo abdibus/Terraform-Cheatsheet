@@ -1,5 +1,5 @@
 ### Prerequisites
-How to launch an Instance with Attached and Mounted EBS in AWS Cloud.
+How to launch an Instance with Attached and Mounted EBS volume in AWS Cloud?
 Here's a simple Terraform template with a boot-strapping/user-data script you may use.
 It works for me and I find it useful for others.
 
