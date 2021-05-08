@@ -49,6 +49,6 @@ ssh-connect && result confirmation:
 
 3. There's no elastic IP on the template.
 If you are going to stop the instance you created via template its IP address may be changed while starting.
-But it works after the instance reboot.
+But it will work after the reboot of the instance.
 
 4. I have Terraform version of `Terraform v0.15.0`. In earlier versions, especially in v0.12 and older ones, it won't work.
