@@ -1,0 +1,8 @@
+# Compiled files
+/**/*\.tfstate*
+
+# Dotted files and folders
+/**/\.*
+
+# Exceptions
+!.gitignore
