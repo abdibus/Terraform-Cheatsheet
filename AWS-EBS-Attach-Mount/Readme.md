@@ -1,5 +1,6 @@
 ### Prerequisites
 How to launch an Instance with Attached and Mounted EBS volume in AWS Cloud?
+<br>
 Here's a simple Terraform template with a boot-strapping/user-data script you may use.
 It works for me and I find it useful for others.
 
@@ -35,9 +36,9 @@ ssh-connect && result confirmation:
 <img src="instance.png"><br>
 
 ### Links of used resources
-<a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/volume_attachment">Terraform Docs</a>
+<a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/volume_attachment">Resource: aws_volume_attachment</a>
 <br>
-<a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html">AWS Docs</a>
+<a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html">Make an Amazon EBS volume available for use on Linux</a>
 <br>
 <a href="https://github.com/adv4000/terraform-lessons">Terraform Lessons by Denis Astahov</a>
 
