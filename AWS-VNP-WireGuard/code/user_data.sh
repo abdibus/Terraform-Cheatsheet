@@ -18,10 +18,10 @@ sed -i "s:#${NET_FORWARD}:${NET_FORWARD}:" /etc/sysctl.conf
 cd /etc/wireguard
 umask 077
 
-SERVER_PRIVKEY=$( wg genkey )
 SERVER_PUBKEY=$( echo $SERVER_PRIVKEY | wg pubkey )
-
 echo $SERVER_PUBKEY > ./server_public.key
+
+SERVER_PRIVKEY=$( wg genkey )
 echo $SERVER_PRIVKEY > ./server_private.key
 
 ENDPOINT=$(host myip.opendns.com resolver1.opendns.com | grep "myip.opendns.com has" | awk '{print $4}')

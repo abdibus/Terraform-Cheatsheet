@@ -15,7 +15,7 @@ Launch VPN-Server using Terraform:
 cd Terraform-Cheatsheet/AWS-VNP-WireGuard/
 ./vpn-server apply
 ```
-Add a user on remote-server:
+Add user on remote-server:
 ```
 cd wireguard_aws/
 sudo sh add-client.sh
