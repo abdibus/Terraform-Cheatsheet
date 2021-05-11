@@ -32,7 +32,7 @@ ssh-connect && result confirmation:
 ### Links of used resources
 <a href="https://github.com/pprometey/wireguard_aws">Alexey Chernyavskiy's Github</a>
 <br>
-<a href="https://habr.com/ru/post/448528/">Article about deployment in Russian.</a>
+<a href="https://habr.com/ru/post/448528/">The article about manual deployment in Russian.</a>
 
 ### Issues
 - It takes about extra 10 seconds for `user_data.sh` to be completed after ssh-connect. Please wait.
