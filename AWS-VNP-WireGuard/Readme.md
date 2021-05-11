@@ -27,6 +27,7 @@ cd Terraform-Cheatsheet/AWS-VNP-WireGuard/
 ```
 #### Resulting screenshots
 ssh-connect && result confirmation:
+<br>
 <img src="instance.png"><br>
 ### Links of used resources
 <a href="https://github.com/pprometey/wireguard_aws">Alexey Chernyavskiy Github</a>
