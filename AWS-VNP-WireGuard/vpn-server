@@ -4,7 +4,7 @@ if [[ $1 = "apply" ]];
 then
   cd ./code && terraform apply -auto-approve
   export HOST=`cat ./terraform.tfstate | grep '"public_ip"' | awk -F '"' '{print $4; exit}'`
-  sleep 30
+  sleep 90
   ssh -o StrictHostKeyChecking=no -i ./.ssh-keys/ssh-key $HOST -l ubuntu
 elif [[ $1 = "destroy" ]];
 then
