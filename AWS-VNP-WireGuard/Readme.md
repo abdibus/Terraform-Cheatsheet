@@ -25,8 +25,8 @@ Destroy VPN-Server using Terraform:
 cd Terraform-Cheatsheet/AWS-VNP-WireGuard/
 ./vpn-server destroy
 ```
-### Resulting screenshots
-ssh-connect && result confirmation:
+### Result
+Scan QR-code using WireGuard app from AppStore or Google Play on the phone/tablet or pass credentials to the app on Mac/PC.
 <br>
 <img src="instance.png"><br>
 ### Links of used resources
