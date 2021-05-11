@@ -5,7 +5,7 @@ Here's a simple Terraform template with a boot-strapping/user-data script you ma
 It works for me and I find it useful for others.
 
 ### Commands to execute
-Create ssh-keys to connect the server:
+Create ssh-keys:
 ```
 mkdir .ssh-keys
 ssh-keygen
@@ -30,7 +30,7 @@ ssh-connect && result confirmation:
 <br>
 <img src="instance.png"><br>
 ### Links of used resources
-<a href="https://github.com/pprometey/wireguard_aws">Alexey Chernyavskiy Github</a>
+<a href="https://github.com/pprometey/wireguard_aws">Alexey Chernyavskiy's Github</a>
 <br>
 <a href="https://habr.com/ru/post/448528/">Article about deployment in Russian.</a>
 

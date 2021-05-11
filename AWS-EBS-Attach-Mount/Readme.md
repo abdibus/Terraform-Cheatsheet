@@ -5,7 +5,7 @@ Here's a simple Terraform template with a boot-strapping/user-data script you ma
 It works for me and I find it useful for others.
 
 ### Commands to execute
-Create ssh-keys to connect the server:
+Create ssh-keys:
 ```
 mkdir .ssh-keys
 ssh-keygen
