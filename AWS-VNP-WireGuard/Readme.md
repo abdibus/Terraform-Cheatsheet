@@ -25,7 +25,7 @@ Destroy VPN-Server using Terraform:
 cd Terraform-Cheatsheet/AWS-VNP-WireGuard/
 ./vpn-server destroy
 ```
-#### Resulting screenshots
+### Resulting screenshots
 ssh-connect && result confirmation:
 <br>
 <img src="instance.png"><br>
