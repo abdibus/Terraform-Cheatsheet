@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [[ $1 = "apply" ]];
+then
+  cd ./code && terraform apply -auto-approve
+  export HOST=`cat ./terraform.tfstate | grep '"public_ip"' | awk -F '"' '{print $4; exit}'`
+  sleep 30
+  ssh -o StrictHostKeyChecking=no -i ./.ssh-keys/ssh-key $HOST -l ubuntu
+elif [[ $1 = "destroy" ]];
+then
+  cd ./code && terraform destroy -auto-approve
+elif [[ $1 = "plan" ]];
+then
+  cd ./code && terraform plan
+else
+  echo "Please set one of:"
+  echo "     plan"
+  echo "     apply"
+  echo "     destroy"
+fi
