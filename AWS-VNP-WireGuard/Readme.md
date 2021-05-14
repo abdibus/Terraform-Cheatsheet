@@ -18,10 +18,12 @@ cd Terraform-Cheatsheet/AWS-VNP-WireGuard/
 
 ./vpn-server destroy
 ```
+
 Add user on remote-server:
 ```
 cd wireguard_aws/
 sudo sh add-client.sh
+```
 ### Result
 Scan QR-code using WireGuard app from AppStore or Google Play on the phone/tablet or pass credentials to the app on Mac/PC.
 <br>
