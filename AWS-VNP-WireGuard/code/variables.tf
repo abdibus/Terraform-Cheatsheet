@@ -6,3 +6,7 @@ variable "project" {
 variable "owner" {
   default = "Adib Shangareev"
 }
+
+variable "region" {
+  default = "eu-central-1"
+}
