@@ -24,7 +24,6 @@ ssh -i .ssh-keys/ssh-key ec2-user@<public-ip>
 // sudo passwd openvpn
 ```
 ### Result
-- go to admin consul
-- configure Network, VPN-Server, users, and get a client
-- relax
-- 
+- Go to admin consul
+- Configure Network, VPN-Server, users, and get a client
+- Relax
