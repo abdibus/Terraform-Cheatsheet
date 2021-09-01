@@ -1,5 +1,5 @@
 ### Prerequisites
-How to Launch OpenVPN-Server on AWS Instance via Terraform.
+How to Launch OpenVPN-Server on AWS Instance via Terraform.  
 Here's a simple Terraform template with a <a href="https://openvpn.net/vpn-software-packages/">user-data</a> applied to AWS Linux-2 instance.
 
 ### Commands to execute
